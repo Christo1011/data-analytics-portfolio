@@ -47,18 +47,11 @@ Financial institutions require real-time fraud detection systems that can handle
 
 The following table summarizes the performance metrics and computational costs for our Baseline and Advanced fraud detection models.
 
-
-
 | Metric | Baseline (Logistic Regression) | Advanced (Random Forest) |
-
 | :--- | :--- | :--- |
-
 | \*\*Execution Time\*\* | \~24 Seconds | \~5 Minutes 36 Seconds |
-
 | \*\*Recall (Fraud)\*\* | 0.50 | \*\*0.73\*\* |
-
 | \*\*False Positives\*\* | 495 | \*\*8\*\* |
-
 | \*\*Precision (Fraud)\*\* | 0.63 | \*\*0.99\*\* |
 
 
@@ -69,11 +62,9 @@ Conclusion: The Random Forest model achieved a 23% increase in recall and reduce
 
 ## Visualization
 
-!\[Transaction Distribution](./reports/transaction\_distribution.png)
-
-!\[Linear Regression Top Features](./reports/logistic\_top\_features.png)
-
-!\[Classifier Top Features](./reports/classifier\_top\_features.png)
+![Transaction Distribution](./online-payment-fraud-detection/reports/transaction_distribution.png)
+![Linear Regression Top Features](./online-payment-fraud-detection/reports/logistic_top_features.png)
+![Classifier Top Features](./online-payment-fraud-detection/reports/classifier_top_features.png)
 
 \---
 
