@@ -63,7 +63,9 @@ Conclusion: The Random Forest model achieved a 23% increase in recall and reduce
 ## Visualization
 
 ![Transaction Distribution](./online-payment-fraud-detection/reports/transaction_distribution.png)
+
 ![Linear Regression Top Features](./online-payment-fraud-detection/reports/logistic_top_features.png)
+
 ![Classifier Top Features](./online-payment-fraud-detection/reports/classifier_top_features.png)
 
 \---
