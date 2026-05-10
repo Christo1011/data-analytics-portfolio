@@ -58,9 +58,7 @@ Evaluation metrics show that the model predicts monthly crime counts with an ave
 
 !\[Crime Dashboard - Page 1](./reports/crime\_dashboard\_page1.png)
 
-
 !\[Crime Dashboard - Page 2](./reports/crime\_dashboard\_page2.png)
-
 
 !\[Crime Dashboard - Page 3](./reports/crime\_dashboard\_page3.png)
 
@@ -86,44 +84,44 @@ pip install -r requirements.txt
 ```bash
 python pipeline.py
 # or
-jupyter notebook notebooks/crime\\\_forecast\\\_2023.ipynb
+jupyter notebook notebooks/crime\\\\\\\_forecast\\\\\\\_2023.ipynb
 
-\\---
+\\\\---
 
 ## Next Steps
 
-\* Add GitHub Actions workflow for automation
-\* Deploy FastAPI service to allow live predictions
-\* Expand to real-time streaming data
+\\\* Add GitHub Actions workflow for automation
+\\\* Deploy FastAPI service to allow live predictions
+\\\* Expand to real-time streaming data
 
-\\---
+\\\\---
 
 Project Structure
 crime-forecasting/
 │
 ├── data/                # Raw and processed datasets
 │   └── processed/
-│       └── cleaned\\\_data.csv
-├── notebooks/           # Jupyter notebooks (training \\\& testing)
-│   ├── crime\\\_forecast\\\_2023.ipynb
-│   ├── data\\\_cleaning.ipynb
+│       └── cleaned\\\\\\\_data.csv
+├── notebooks/           # Jupyter notebooks (training \\\\\\\& testing)
+│   ├── crime\\\\\\\_forecast\\\\\\\_2023.ipynb
+│   ├── data\\\\\\\_cleaning.ipynb
 │   ├── FastApi.ipynb
 │   ├── pipeline.ipynb
-│   └── xgb\\\_crime\\\_model.ipynb
-├── reports/             # Power BI exports \\\& screenshots
-│   ├── crime\\\_forecast.pdf
-│   ├── crime\\\_forecast.pbix
-│   ├── forecast\\\_2023.csv
-│   ├── forecast\\\_plot\\\_v1\\\_20250829.png
-│   ├── crime\\\_dashboard\\\_page1.png
-│   ├── crime\\\_dashboard\\\_page2.png
-│   └── crime\\\_dashboard\\\_page3.png
+│   └── xgb\\\\\\\_crime\\\\\\\_model.ipynb
+├── reports/             # Power BI exports \\\\\\\& screenshots
+│   ├── crime\\\\\\\_forecast.pdf
+│   ├── crime\\\\\\\_forecast.pbix
+│   ├── forecast\\\\\\\_2023.csv
+│   ├── forecast\\\\\\\_plot\\\\\\\_v1\\\\\\\_20250829.png
+│   ├── crime\\\\\\\_dashboard\\\\\\\_page1.png
+│   ├── crime\\\\\\\_dashboard\\\\\\\_page2.png
+│   └── crime\\\\\\\_dashboard\\\\\\\_page3.png
 ├── scripts/             # Python scripts (pipeline, model, FastAPI)
-│   ├── crime\\\_forecast\\\_2023.py
-│   ├── data\\\_cleaning.py
+│   ├── crime\\\\\\\_forecast\\\\\\\_2023.py
+│   ├── data\\\\\\\_cleaning.py
 │   ├── FastApi.py
-│   ├── xgb\\\_crime\\\_model.py
-│   └── xgb\\\_crime\\\_model\\\_v1\\\_20250829.pkl
+│   ├── xgb\\\\\\\_crime\\\\\\\_model.py
+│   └── xgb\\\\\\\_crime\\\\\\\_model\\\\\\\_v1\\\\\\\_20250829.pkl
 ├── requirements.txt     # Dependencies
 └── README.md            # Project documentation
 ```
